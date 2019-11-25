@@ -14,7 +14,7 @@ class Teller
   end
 
   def to_s
-    "Teller #{@name} completed #{no_transactions} in #{calculate_time}"
+    "Teller #{@name} completed #{no_transactions} transactions in #{calculate_time}"
   end
 
 end
